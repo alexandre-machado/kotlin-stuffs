@@ -25,3 +25,82 @@ replay_pid*
 
 # Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
 .kotlin/
+
+# Gradle
+.gradle/
+build/
+out/
+classes/
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Local configuration file
+local.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/shelf
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/datasources.xml
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/assetWizardSettings.xml
+.idea/gradle.xml
+.idea/libraries/
+.idea/caches/
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/.name
+.idea/.gitignore
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/artifacts/
+.idea/misc.xml
+.idea/modules/
+.idea/scopes/
+.idea/runConfigurations/
+
+# VS Code
+.vscode/
+.history/
+*.vsix
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Generated files
+bin/
+gen/
+
+# Benchmark specific
+reports/
+BenchmarkList
+CompilerHints
+benchmark-reports/
